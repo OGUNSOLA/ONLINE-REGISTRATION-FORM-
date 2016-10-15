@@ -1,0 +1,270 @@
+* {
+box-sizing: border-box;
+}
+
+
+
+#top {
+	background: black;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#wrapper {
+	padding: 0 3%;
+
+}
+
+.bottomHeader {
+	text-align: center;
+	border-bottom: 3px solid;
+	margin-bottom: 3px;
+}
+
+
+.bottomHeader p {
+	font-size: 20px;
+	padding-left: 10%;
+	padding-right:10%;
+	color: #c0c0c0;
+	font-weight: bold;
+}
+
+
+.mainFormBody {
+	border-top: 1px solid;
+	padding-top: 20px;
+	padding-bottom: 200px;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea,
+button {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 30px;
+	margin-top: 8px;
+	background: #f2f2f2;
+	border-radius: 5px;
+	border: none;
+	text-align: right;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 0px 10px 0;
+}
+
+
+#ZipCode {
+	max-width: 50%;
+	display: block;
+	}
+
+label {
+	color: #c0c0c0;
+	margin-left: 5px;
+}
+
+#first, #second {
+	border: none;
+}
+
+#OtherTopics {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+legend {
+	margin-bottom: 10px;
+	font-weight: bold;
+	display: block;
+}
+
+#first  {
+
+	border-bottom: 2px solid;
+	margin-bottom: 20px;
+}
+
+#residenceState {
+	margin-bottom: 20px;
+	margin-top: 5px;
+	height: 50px;
+}
+
+
+#second p {
+	color:  #c0c0c0;
+
+}
+
+h5 {
+	color:  #c0c0c0;
+	text-align: center;
+}
+
+
+button[type="submit"] {
+
+	background: #00b3b3;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+}
+
+
+::-webkit-validation-bubble {
+    font-weight: 200;
+}
+::-webkit-validation-bubble-arrow {
+ border: 1px solid #E6C700;
+ background: #FAF1B4;
+ margin-bottom:6px;
+ padding: 2px;
+}
+::-webkit-validation-bubble-message {
+ border: 1px solid #E6C700;
+ background: #FAF1B4;
+ padding: 0.5em 1em;
+ margin-top: 3px;
+}
+
+
+textarea:focus
+{
+    background-image: none;
+    background-color:#b4df5b;
+    border: solid 1px #33677F;
+}
+
+
+input:focus
+{
+    background-image: none;
+    background-color:#ffd65e;
+    border: solid 1px #33677F;
+}
+
+input {
+    -moz-transition: padding .60s;
+    -webkit-transition: padding .60s;
+    -o-transition: padding .60s;
+    transition: padding .60s;
+}
+
+textarea {
+	outline:red;
+	height: 100px;
+}
+
+
+button {
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient( #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+}
+button:hover {
+    opacity:.85;
+    cursor: pointer;
+}
+button:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+
+}
+
+
+::-webkit-input-placeholder {
+   	font-family: 'Bungee Inline', cursive;
+		font-size: 10px;
+		color:  #ff670f;
+}
+
+@media screen and (min-width: 760px) {
+
+  #wrapper {
+	padding: 0 20%;
+
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select,
+button {
+
+    max-width: 70%;
+	}
+
+
+
+
+#first label {
+	float: left;
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+#state , #residenceState{
+	display: inline-block;
+}
+
+#state  {
+	width: 29%;
+	margin: 0 auto;
+	margin-top: 25px;
+	color:  #c0c0c0;
+}
+
+
+#OtherTopics,
+button		{
+	min-width: 100%;
+}
+
+
+
+
+}

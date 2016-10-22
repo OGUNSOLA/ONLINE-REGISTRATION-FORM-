@@ -30,7 +30,7 @@ box-sizing: border-box;
 	font-size: 20px;
 	padding-left: 10%;
 	padding-right:10%;
-	color: #c0c0c0;
+	color:  #404040;
 	font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ input[type="checkbox"] {
 	}
 
 label {
-	color: #c0c0c0;
+	color:  #404040;
 	margin-left: 5px;
 }
 
@@ -105,12 +105,12 @@ legend {
 
 
 #second p {
-	color:  #c0c0c0;
+	color:   #404040;
 
 }
 
 h5 {
-	color:  #c0c0c0;
+	color:   #404040;
 	text-align: center;
 }
 

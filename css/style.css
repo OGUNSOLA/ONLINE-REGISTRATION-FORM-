@@ -43,10 +43,8 @@ box-sizing: border-box;
 
 
 input[type="text"],
-input[type="number"],
-input[type="tel"],
 input[type="email"],
-input[type="tel"],
+input[type="telephone"],
 select,
 textarea,
 button {
@@ -226,10 +224,8 @@ button:active {
 }
 
 input[type="text"],
-input[type="number"],
-input[type="tel"],
 input[type="email"],
-input[type="tel"],
+input[type="telephone"],
 textarea,
 select,
 button {

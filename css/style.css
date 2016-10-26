@@ -44,7 +44,7 @@ box-sizing: border-box;
 
 input[type="text"],
 input[type="email"],
-input[type="telephone"],
+input[type="tel"],
 select,
 textarea,
 button {
@@ -156,6 +156,14 @@ input:focus
     border: solid 1px #33677F;
 }
 
+
+select:focus
+{
+    background-image: none;
+    background-color:#ffd65e;
+    border: solid 1px #33677F;
+}
+
 input {
     -moz-transition: padding .60s;
     -webkit-transition: padding .60s;
@@ -225,7 +233,7 @@ button:active {
 
 input[type="text"],
 input[type="email"],
-input[type="telephone"],
+input[type="tel"],
 textarea,
 select,
 button {
